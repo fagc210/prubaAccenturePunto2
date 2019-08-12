@@ -1,0 +1,29 @@
+package com.accenture.app;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import com.accenture.app.domain.VisaCard;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class AppApplicationTests {
+
+	@Test
+	public void contextLoads() {
+		
+		VisaCard visacard = new VisaCard();
+		System.out.println(visacard.getinterestRates());
+		System.out.println(visacard.getState());
+		visacard.activateCard();
+		System.out.println(visacard.getState());
+		
+	}
+	
+	
+	
+	
+
+}

@@ -1,0 +1,7 @@
+package com.accenture.app.domain;
+
+public abstract  class CardCredit {
+	
+	private Long cardNumber;
+
+}

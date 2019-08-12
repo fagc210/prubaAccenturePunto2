@@ -1,0 +1,9 @@
+package com.accenture.app.service.impl;
+
+import java.util.List;
+
+public interface Funtions {
+	
+	public List<String> getFuntions();
+
+}

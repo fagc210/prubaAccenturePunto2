@@ -1,0 +1,5 @@
+package com.accenture.app.domain;
+
+public class Client {
+
+}

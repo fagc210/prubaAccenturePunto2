@@ -1,0 +1,5 @@
+package com.accenture.app.service.impl;
+
+public interface Funtions {
+
+}

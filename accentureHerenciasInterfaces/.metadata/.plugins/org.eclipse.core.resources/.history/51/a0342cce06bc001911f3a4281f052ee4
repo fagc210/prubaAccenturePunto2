@@ -1,0 +1,29 @@
+package com.accenture.app.domain;
+
+public class Client {
+	
+	private String name;
+	private String lastName;
+	private Integer cellPhone;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public Integer getCellPhone() {
+		return cellPhone;
+	}
+	public void setCellPhone(Integer cellPhone) {
+		this.cellPhone = cellPhone;
+	}
+	
+	
+
+}

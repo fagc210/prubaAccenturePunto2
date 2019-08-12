@@ -1,0 +1,20 @@
+package com.accenture.app.domain;
+
+public abstract  class CreditCard {
+	
+	private Long cardNumber;
+	private String State="Inactiva";
+	
+	
+	public void activateCard() {
+		this.State="Activada";
+	}
+	
+	public void BlockCard() {
+		this.State="Activada";
+	}
+	
+	public abstract Double getinterestRates();
+	
+
+}

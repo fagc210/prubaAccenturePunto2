@@ -1,0 +1,12 @@
+package com.accenture.app.domain;
+
+import java.util.List;
+
+public abstract class Cursos {
+	
+	
+	
+	public abstract List<String> getRequirements();
+	
+
+}

@@ -1,0 +1,11 @@
+package com.accenture.app.domain;
+
+public class VisaCard extends CreditCard{
+
+	@Override
+	public Double getinterestRates() {
+		
+		return 2.6d;
+	}
+
+}

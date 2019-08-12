@@ -1,0 +1,11 @@
+package com.accenture.app.domain;
+
+public class CurrentAccount {
+	
+	private Long accountNumber;
+	
+	private String state;
+	
+	private Long accountBalance;
+
+}

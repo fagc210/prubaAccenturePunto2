@@ -1,0 +1,12 @@
+package com.accenture.app.domain;
+
+
+public abstract class Empleado {
+	
+	private String name;
+	private String lastName;
+	
+	
+	
+
+}

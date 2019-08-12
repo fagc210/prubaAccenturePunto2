@@ -1,0 +1,32 @@
+package com.accenture.app.domain;
+
+public abstract class Cours {
+	
+	private String name;
+	private String emai;
+	
+	public Cours(String name, String emai) {
+		this.name = name;
+		this.emai = emai;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getEmai() {
+		return emai;
+	}
+
+	public void setEmai(String emai) {
+		this.emai = emai;
+	}
+	
+	public abstract String getDiscount();
+	
+
+}
